@@ -1,0 +1,30 @@
+{
+  "name": "saffron",
+  "version": "0.0.0",
+  "description": "An implementation of function currying in JavaScript.",
+  "author": "Lim Yuan Qing",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yuanqing/saffron.git"
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.14",
+    "jshint": "^2.7.0",
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "lint": "jshint --verbose index.js test/*.js",
+    "test": "rm -rf coverage && istanbul cover tape test/*.js",
+    "build": "npm run lint && npm test"
+  },
+  "keywords": [
+    "apply",
+    "arguments",
+    "curried",
+    "curry",
+    "currying",
+    "function",
+    "partial"
+  ]
+}
