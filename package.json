@@ -1,6 +1,6 @@
 {
   "name": "saffron",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "An implementation of function currying in JavaScript.",
   "author": "Lim Yuan Qing",
   "license": "MIT",
